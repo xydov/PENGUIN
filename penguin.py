@@ -21,31 +21,35 @@ def clear_console():
     else:
         os.system('clear')
 
-# ANSI escape codes for colors
-LIGHT_BLUE = "\033[94m"
-LIGHTER_BLUE = "\033[96m"
-RESET_COLOR = "\033[0m"
+def main():
+    # ANSI escape codes for colors
+    LIGHT_BLUE = "\033[94m"
+    LIGHTER_BLUE = "\033[96m"
+    RESET_COLOR = "\033[0m"
 
-# Print welcome message in light blue
-print(f"{LIGHT_BLUE}Welcome to the Penguin AI chat! Type 'exit' to quit. Type 'clear' to clear the conversation.{RESET_COLOR}")
+    # Print welcome message in light blue
+    print(f"{LIGHT_BLUE}Welcome to the Penguin AI chat! Type 'exit' to quit. Type 'clear' to clear the conversation.{RESET_COLOR}")
 
-while True:
-    # Get user input with a light blue arrow
-    user_input = input(f"{LIGHT_BLUE}---> {RESET_COLOR}")
-    
-    # Check for exit condition
-    if user_input.lower() == 'exit':
-        print("Exiting...")
-        break
-    
-    # Check for clear command
-    if user_input.lower() == 'clear':
-        clear_console()
-        print(f"{LIGHT_BLUE}Welcome to the Penguin AI chat! Type 'exit' to quit. Type 'clear' to clear the conversation.{RESET_COLOR}")
-        continue
-    
-    # Generate and print AI response
-    response = my_AI_Answer(user_input)
-    print(f"{LIGHTER_BLUE}Penguin AI 🐧{RESET_COLOR}:")
-    print(response)
+    while True:
+        # Get user input with a light blue arrow
+        user_input = input(f"{LIGHT_BLUE}---> {RESET_COLOR}")
+        
+        # Check for exit condition
+        if user_input.lower() == 'exit':
+            print("Exiting...")
+            break
+        
+        # Check for clear command
+        if user_input.lower() == 'clear':
+            clear_console()
+            print(f"{LIGHT_BLUE}Welcome to the Penguin AI chat! Type 'exit' to quit. Type 'clear' to clear the conversation.{RESET_COLOR}")
+            continue
+        
+        # Generate and print AI response
+        response = my_AI_Answer(user_input)
+        print(f"{LIGHTER_BLUE}Penguin AI 🐧{RESET_COLOR}:")
+        print(response)
+
+if __name__ == "__main__":
+    main()
 
