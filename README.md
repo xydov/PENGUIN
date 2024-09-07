@@ -1,4 +1,4 @@
-![Penguin Logo](./pictures/resized_logo.png)
+![Penguin Logo](./pictures/logo-no-background.png)
 
 # 🐧 PENGUIN
 
