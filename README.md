@@ -1,10 +1,10 @@
-```markdown
-# PENGUIN
+
 
 ![logo penguin](./pictures/logo-no-background.png)
 
 
-
+```markdown
+# PENGUIN
 
 ## Description
 
@@ -44,10 +44,11 @@ cd ..
 "parlai interactive --model-file zoo:blenderbot_400Mdistill/model
 "
 
-"To customize BlenderBot for therapeutic use:
+To customize BlenderBot for therapeutic use:
 
     Fine-tuning: You can fine-tune the model on dialogue datasets related to therapy and mental health.
-    Adding Emotional Understanding: Integrate emotion detection tools, or re-train on emotion-specific datasets to make the responses more empathetic."
+    Adding Emotional Understanding: Integrate emotion detection tools,
+ or re-train on emotion-specific datasets to make the responses more empathetic.
 
 
  
