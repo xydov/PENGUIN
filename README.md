@@ -31,14 +31,13 @@ Penguin is an AI-powered app created on 29/08/2024 by Nouh and Souad. It allows 
 - [X] Model implementation
 - [X] Successful communication with the AI
 
-``bash
-git clone https://github.com/CHS/VJA.git
-``
-pip install transformers
-git clone https://github.com/facebookresearch/ParlAI.git
-cd ParlAI
-python setup.py install
-cd ..
+```bash
+```git clone https://github.com/CHS/VJA.git
+```pip install transformers
+```git clone https://github.com/facebookresearch/ParlAI.git
+```cd ParlAI
+```python setup.py install
+```cd ..
 
 
 "parlai interactive --model-file zoo:blenderbot_400Mdistill/model
@@ -47,8 +46,7 @@ cd ..
 To customize BlenderBot for therapeutic use:
 
     Fine-tuning: You can fine-tune the model on dialogue datasets related to therapy and mental health.
-    Adding Emotional Understanding: Integrate emotion detection tools,
- or re-train on emotion-specific datasets to make the responses more empathetic.
+    Adding Emotional Understanding: Integrate emotion detection tools,or re-train on emotion-specific datasets to make the responses more empathetic.
 
 
  
