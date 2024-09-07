@@ -1,3 +1,3 @@
 # PENGUIN
 
-![logo penguin](./pictures/logo-color.png)
+![logo penguin](./pictures/logo-no-background.png)
