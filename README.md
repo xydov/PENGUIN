@@ -1,4 +1,6 @@
-![Penguin Logo](./pictures/logo-no-background.png){:width="300px"}
+![Penguin Logo](./pictures/logo-no-background.png)
+<img src="./pictures/logo-no-background.png" alt="Penguin Logo" width="300"/>
+
 
 # 🐧 PENGUIN
 
