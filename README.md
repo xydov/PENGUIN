@@ -1,4 +1,4 @@
-![Penguin Logo](./pictures/logo-no-background.png)
+![Penguin Logo](./pictures/resized_logo.png)
 
 # 🐧 PENGUIN
 
@@ -69,8 +69,9 @@ You can run BlenderBot using the following command:
 parlai interactive --model-file zoo:blenderbot_400Mdistill/model
 
 
-Fine-tuning: You can fine-tune the model on dialogue datasets related to therapy and mental health.
-    Adding Emotional Understanding: Integrate emotion detection tools,
+Fine-tuning: You can fine-tune the model on dialogue datasets related 
+to therapy and mental health.
+ Adding Emotional Understanding: Integrate emotion detection tools,
 or re-train on emotion-specific datasets to make the responses more empathetic.
 
 
