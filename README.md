@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./pictures/logo-no-background.png" alt="Penguin Logo" width="500"/>
+  <img src="./pictures/logo-no-background.png" alt="Penguin Logo" width="400"/>
 </p>
 
 
